@@ -1832,7 +1832,7 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: rgba(0, 0, 0, 0.95);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1845,6 +1845,7 @@ input, select, textarea {
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+			color: rgba(259, 259, 259, 0.9);
 		}
 
 			#header h1 a {
@@ -1857,6 +1858,7 @@ input, select, textarea {
 			top: 0;
 			height: 3em;
 			line-height: 3em;
+			color: rgba(259, 259, 259, 0.9);
 		}
 
 			#header nav ul {
@@ -2244,7 +2246,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/transparent.png"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
